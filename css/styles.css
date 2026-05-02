@@ -112,6 +112,10 @@ header a {
   padding: 26px 0;
 }
 
+.header-nav-list li:nth-child(1) a {
+  font-weight: 600;
+}
+
 .header-btn {
   display: flex;
   gap: 21px;
