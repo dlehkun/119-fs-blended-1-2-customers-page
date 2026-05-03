@@ -202,6 +202,35 @@ header a {
 
 /* #endregion Our Clients section */
 
+/* #region Why choose product */
+
+.icon-box {
+  border-radius: 19px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.icon-cursor {
+  background-color: #02897a;
+}
+.icon-octopus {
+  background-color: #4d8dff;
+}
+
+.icon-heart {
+  background-color: #f03e3d;
+}
+
+.icon-box svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* #endregion Our Clients section */
+
 /* #region Footer */
 
 .footer-container {
