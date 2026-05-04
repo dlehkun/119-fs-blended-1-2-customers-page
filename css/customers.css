@@ -204,11 +204,40 @@ header a {
 
 /* #region Why choose product */
 
+.choose-product {
+  background-color: #dedede;
+}
+.choose-product-container {
+  padding-top: 24px;
+  padding-bottom: 68px;
+}
+
+.choose-product-container h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.explanations {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.explanation-item {
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 40px 50px;
+  width: 350px;
+  height: 305px;
+}
+
 .icon-box {
   border-radius: 19px;
   width: 50px;
   height: 50px;
   position: relative;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin: 0 auto 32px auto;
 }
 
 .icon-cursor {
@@ -229,7 +258,19 @@ header a {
   transform: translate(-50%, -50%);
 }
 
-/* #endregion Our Clients section */
+.explanation-item h3 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.explanation-item p {
+  text-align: center;
+  line-height: 169%;
+  letter-spacing: 0.01em;
+  color: var(--main-color);
+}
+
+/* #endregion Why choose product */
 
 /* #region Footer */
 
