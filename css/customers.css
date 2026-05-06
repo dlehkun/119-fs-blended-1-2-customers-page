@@ -282,6 +282,43 @@ header a {
 .product-work-container h2 {
   text-align: center;
   margin-bottom: 73px;
+  color: var(--main-color);
+}
+
+.steps {
+  margin-bottom: 77px;
+}
+
+.step {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.step:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.step-text-part h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--main-color);
+  margin-bottom: 16px;
+}
+
+.step-text-part h4 {
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--main-color);
+  margin-bottom: 16px;
+}
+
+.step-text-part p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--main-color);
 }
 
 .btn-with-us {
@@ -295,6 +332,7 @@ header a {
   background-color: var(--accent-color);
   margin: 0 auto;
 }
+
 /* #endregion How product work */
 
 /* #region Footer */
