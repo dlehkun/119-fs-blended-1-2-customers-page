@@ -336,6 +336,32 @@ header a {
 /* #endregion How product work */
 
 /* #region Join thousand */
+.join-thousand-section {
+  background-color: linear-gradient(
+    180deg,
+    #f5f5f5 0%,
+    rgba(245, 245, 245, 0) 100%
+  );
+}
+
+.join-thousand-container {
+  padding-top: 33px;
+  padding-bottom: 46px;
+}
+
+.join-thousand-container h2 {
+  text-align: center;
+  margin: 0 auto 94px auto;
+  color: var(--main-color);
+  max-width: 537px;
+}
+
+.business-enterprice {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+
 .business-enterprice li:nth-child(2) .join-icon-box {
   background-color: #f2f6ff;
 }
