@@ -231,7 +231,7 @@ header a {
   height: 305px;
 }
 
-.icon-box {
+.choose-product-container .icon-box {
   border-radius: 19px;
   width: 50px;
   height: 50px;
@@ -334,6 +334,29 @@ header a {
 }
 
 /* #endregion How product work */
+
+/* #region Join thousand */
+.business-enterprice li:nth-child(2) .join-icon-box {
+  background-color: #f2f6ff;
+}
+
+.join-icon-box {
+  border-radius: 100%;
+  padding: 30px 20px;
+  width: 150px;
+  height: 150px;
+  background: #ffefef;
+  position: relative;
+}
+
+.join-icon-box svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* #endregion Join thousand */
 
 /* #region Footer */
 
