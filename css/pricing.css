@@ -112,6 +112,10 @@ header a {
   padding: 26px 0;
 }
 
+.header-nav-list li:nth-child(2) a {
+  font-weight: 600;
+}
+
 .header-btn {
   display: flex;
   gap: 21px;
@@ -173,6 +177,221 @@ header a {
   }
 }
 /* #endregion header */
+
+.price-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-card {
+  border-radius: 8px;
+  width: 322px;
+  height: 456px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  transition: transform 250ms ease-in-out;
+}
+
+.price-card:hover {
+  background-color: var(--accent-color);
+  transform: scale(1.1);
+}
+
+.price-card:hover * {
+  color: #fff;
+}
+
+.price-card:hover .btn-price-order-now {
+  background-color: #fff;
+  color: var(--accent-color);
+}
+
+.title-card {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167%;
+  text-align: center;
+  margin-bottom: 8px;
+  padding-top: 32px;
+}
+
+.text-card {
+  font-family: "Montserrat", sans-serif;
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 250%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.price-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 16px;
+}
+
+.price-number-card {
+  font-family: "Monserrat", sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 132%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+.dollar-sign {
+  font-family: "Inter";
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: 0em;
+}
+
+.month {
+  font-family: "Monserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119%;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+
+.explain-price-items {
+  color: var(--main-color);
+  font-family: "Monserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 138%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.explain-price-items li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.btn-price-order-now {
+  font-family: "Monserrat", sans-serif;
+  color: #fff;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background-color: var(--accent-color);
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 411px) {
+  .price-container {
+    max-width: 362px;
+    padding-top: 61px;
+  }
+  .title-price {
+    width: 100%;
+    max-width: 192px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+
+  .text-price {
+    width: 100%;
+    max-width: 213px;
+    margin: 0 auto 74px auto;
+  }
+
+  .price-cards {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+}
+
+/* #region JOIN HUNDRED */
+
+.container-join {
+  padding-top: 100px;
+}
+
+.card-join-100-section {
+  background-color: var(--accent-color);
+  max-width: 968px;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 10px;
+}
+
+.card-join-100-section {
+  border-radius: 32px;
+}
+
+.left-side {
+  padding: 49px 0 56px 51px;
+  min-width: 510px;
+}
+
+.title-join-100-section {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 151%;
+  color: #fff;
+  margin-bottom: 46px;
+}
+
+.btn-get-this {
+  height: 50px;
+  width: 150px;
+  background-color: #fff;
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 411px) {
+  .container-join {
+    max-width: 411px;
+    padding: 100px 20px 0 20px;
+  }
+
+  .card-join-100-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    max-width: 371px;
+    max-width: 100%;
+    padding-top: 17px;
+  }
+
+  .left-side {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 104px;
+  }
+
+  .title-join-100-section {
+    text-align: center;
+    width: 100%;
+    max-width: 328px;
+    margin: 0 auto;
+  }
+
+  .btn-get-this {
+    margin: 0 auto 42px auto;
+  }
+}
+
+/* #endregion JOIN HUNDRED */
 
 /* #region Footer */
 
